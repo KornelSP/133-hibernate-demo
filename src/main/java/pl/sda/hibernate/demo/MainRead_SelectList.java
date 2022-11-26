@@ -5,7 +5,7 @@ import org.hibernate.Session;
 
 import java.util.List;
 
-public class MainSelectByld {
+public class MainRead_SelectList {
     public static void main(String[] args) {
         // wywołaj try-with-resources który zamknie sesję automatycznie po opuszczeniu try
         try (Session session = HibernateUtil.INSTANCE.getSessionFactory().openSession()) {
